@@ -560,7 +560,7 @@ if ( isset( $_POST['trucollector_form_make_submitted'] ) && wp_verify_nonce( $_P
 
 				<fieldset id="theAlt">
 					<?php
-  						$required = (trucollector_option('img_alt') == 1) ? '(required)' : '(highly reccomennded)';
+  						$required = (trucollector_option('img_alt') == 1) ? '(required)' : '(highly recommended)';
   				   ?>
 
 					<label for="wAlt"><?php trucollector_form_item_img_alt()?> <?php echo $required?></label><br />
